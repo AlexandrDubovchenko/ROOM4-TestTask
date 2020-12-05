@@ -1,0 +1,18 @@
+.container {
+  margin-top: 70px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listItem:not(:last-child) {
+  margin-right: 50px;
+  margin-bottom: 50px;
+  width: 25%;
+}
+
+.listItem * {
+  color: #ea7070;
+}

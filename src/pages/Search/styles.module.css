@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.input {
+  width: 700px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border: 1px solid #ea7070;
+  color: #ea7070;
+}
+
+.list {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.listItem {
+  display: flex;
+  width: 100%;
+  padding: 15px 5px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.listItem:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.listItem div {
+  display: block;
+  width: 50%;
+  display: flex;
+}
+.listItem div:last-child {
+  justify-content: flex-end;
+}
+.listItem div:last-child span {
+  width: 50%;
+}
